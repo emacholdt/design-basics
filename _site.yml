@@ -1,9 +1,14 @@
 name: "Basic Design Tips and Links for Non-Designers"
 navbar:
-  title: "HOME"
+  title: <i class="fa fa-home" aria-hidden="true"></i>
   left:
     - text: "Colors"
       href: colors.html
+  right:
+    - icon: fa-twitter fa-lg
+      href: http://www.twitter.com/emacholdt
+    - icon: fa-github fa-lg
+      href: https://github.com/emacholdt
 output_dir: "."
 output:
   html_document:
