@@ -10,10 +10,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="by Enrico Macholdt" />
 
 
-<title>Basic Design Tips and Links for Non-Designers</title>
+<title>Colors</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -21,6 +20,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -249,6 +251,63 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -256,6 +315,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -287,22 +356,58 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Basic Design Tips and Links for Non-Designers</h1>
-<h4 class="author">by <a href="https://github.com/emacholdt">Enrico Macholdt</a></h4>
+<h1 class="title toc-ignore">Colors</h1>
 
 </div>
 
 
+<p>Color is one of the most important tools to transfer information, evokes emotion and set style. There are a few things that one can do to</p>
 <hr />
-<div id="hey-curios-fellow" class="section level2">
-<h2>Hey curios fellow,</h2>
-<p>design can be hard, especially for non-designers. I saw many scientists struggle, we all struggle.</p>
-<p>This page is my personal collection of basic design tips, tricks, links, tools and more I compiled to make my life a little bit easier. Get inspired and maybe improve the design of your projects, scientific figures, presentations, posters, or whatever you are doing.</p>
-<p><strong>Disclaimer</strong></p>
-<p>This is by far no guidline or tutorial. I am no designer or design student and just want to help everyone kickstarted with tips and tricks.</p>
-<div class="figure">
-<img src="https://i.kym-cdn.com/photos/images/newsfeed/001/018/894/a2c.png" alt="image source: https://knowyourmeme.com/" />
-<p class="caption">image source: <a href="https://knowyourmeme.com/" class="uri">https://knowyourmeme.com/</a></p>
+<div id="color-theory" class="section level2">
+<h2>Color Theory</h2>
+<p><br></p>
+</div>
+<div id="links-tools" class="section level2">
+<h2>Links &amp; Tools</h2>
+<div id="color-schemes" class="section level3">
+<h3>Color Schemes</h3>
+<ul>
+<li><a href="http://colorlisa.com/"><strong>colorlisa.com</strong></a></li>
+<li>colorhunt.com</li>
+<li>flatuicolors.com</li>
+</ul>
+</div>
+<div id="color-tools" class="section level3">
+<h3>Color Tools</h3>
+<ul>
+<li>ColorZilla - chrome extension that picks colors from any website</li>
+</ul>
+<p><br></p>
+</div>
+</div>
+<div id="top-4-tips-for-better-color-use" class="section level2">
+<h2>Top 4 Tips for Better Color Use</h2>
+<div id="dont-overdo-it" class="section level3">
+<h3><strong>1. Don’t overdo it</strong></h3>
+<p>Limit the number of colors in your figure</p>
+<p><img src="https://cdn.drawception.com/images/panels/2013/6-13/kbN8PjwxWP-2.png" alt="drawing by Alex_Khom on https://drawception.com" height="250"/></p>
+<p><br></p>
+</div>
+<div id="think-about-others" class="section level3">
+<h3><strong>2. Think about Others</strong></h3>
+<p>Color is relative, we all conceive it a bit differently. Sometimes people get crazy about this.</p>
+<p><img src="https://i.kym-cdn.com/photos/images/newsfeed/000/920/899/715.jpg" alt="image source: swiked on Tumblr" height="350"/></p>
+<p><br></p>
+</div>
+<div id="dont-f-the-color-blind" class="section level3">
+<h3><strong>3. Don’t F*** the Color Blind</strong></h3>
+<p>Colour vision deficiency, or CVD) affects approximately 1 in 12 men (8%) and 1 in 200 women in the world. (Source: www.colourblindawareness.org)</p>
+<p><img src="https://i.redd.it/zulqus1dkb421.jpg" alt="image source: https://www.reddit.com/r/ColorBlind/" height="350"/></p>
+<p><br></p>
+</div>
+<div id="contrast-is-king" class="section level3">
+<h3><strong>4. Contrast is King</strong></h3>
+<p><img src="https://neliosoftware.com/wp-content/uploads/2015/08/color-contrast.png" alt="https://neliosoftware.com/blog/which-color-converts-the-best/" height="250"/></p>
 </div>
 </div>
 
@@ -315,6 +420,8 @@ $(document).ready(function () {
 </footer>
 
 
+</div>
+</div>
 
 </div>
 
@@ -347,6 +454,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

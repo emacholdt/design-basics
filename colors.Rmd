@@ -1,0 +1,63 @@
+---
+title: "Colors"
+output:
+  html_document:
+    toc: true  
+    toc_float: true 
+    fig_width: 0.5
+---
+
+Color is one of the most important tools to transfer information, evokes emotion and set style.
+There are a few things that one can do to 
+
+----
+
+## Color Theory
+
+
+<br>
+
+## Links & Tools
+
+### Color Schemes
+
+- [**colorlisa.com**](http://colorlisa.com/)
+- colorhunt.com
+- flatuicolors.com
+
+### Color Tools
+
+- ColorZilla - chrome extension that picks colors from any website
+
+<br>
+
+## Top 4 Tips for Better Color Use
+
+### **1. Don't overdo it**
+
+Limit the number of colors in your figure 
+
+<img src="https://cdn.drawception.com/images/panels/2013/6-13/kbN8PjwxWP-2.png" alt="drawing by Alex_Khom on https://drawception.com" height="250"/>
+
+<br>
+
+### **2. Think about Others**
+
+Color is relative, we all conceive it a bit differently. Sometimes people get crazy about this.
+
+<img src="https://i.kym-cdn.com/photos/images/newsfeed/000/920/899/715.jpg" alt="image source: swiked on Tumblr" height="350"/>
+
+<br>
+
+### **3. Don't F\*\*\* the Color Blind**
+
+Colour vision deficiency, or CVD) affects approximately 1 in 12 men (8%) and 1 in 200 women in the world. (Source: www.colourblindawareness.org)
+
+
+<img src="https://i.redd.it/zulqus1dkb421.jpg" alt="image source: https://www.reddit.com/r/ColorBlind/" height="350"/>
+
+<br>
+
+### **4. Contrast is King**
+
+<img src="https://neliosoftware.com/wp-content/uploads/2015/08/color-contrast.png" alt="https://neliosoftware.com/blog/which-color-converts-the-best/" height="250"/>
