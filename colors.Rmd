@@ -4,11 +4,10 @@ output:
   html_document:
     toc: true  
     toc_float: true 
-    fig_width: 0.5
 ---
 
 Color is one of the most important tools to transfer information, evokes emotion and set style.
-There are a few things that one can do to 
+There are a few things that one can do to use colors to your advantage.
 
 ----
 
