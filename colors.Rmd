@@ -20,9 +20,14 @@ There are a few things that one can do to use colors to your advantage.
 
 ### Color Schemes
 
-- [**colorlisa.com**](http://colorlisa.com/)
-- colorhunt.com
-- flatuicolors.com
+- [**colorlisa.com**](http://colorlisa.com/)  
+color schemes from famous paintings 
+- [**flatuicolors.com**](https://flatuicolors.com/)  
+nice colors for flat UI design 
+- [**materialpalette.com**](https://www.materialpalette.com)  
+material design colors 
+- [**colorhunt.co**](https://colorhunt.co/)  
+curated color combinations 
 
 ### Color Tools
 
