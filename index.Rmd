@@ -4,6 +4,8 @@ author:  "by [Enrico Macholdt](https://github.com/emacholdt)"
 output:
   html_document:
     fig_width: 1
+    includes:
+      inheader: "favicon.html"
 ---
 
 ----
@@ -14,8 +16,8 @@ design can be hard, especially for non-designers. I saw many scientists struggle
 
 This page is my personal collection of basic design tips, tricks, links, tools and more I compiled to make my life a little bit easier. Get inspired and maybe improve the design of your projects, scientific figures, presentations, posters, or whatever you are doing.
 
-
-
+<br><br>
+  
 **Disclaimer**
 
 This is by far no guidline or tutorial. I am no designer or design student and just want to help everyone kickstarted with tips and tricks.
