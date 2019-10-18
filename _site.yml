@@ -4,6 +4,13 @@ navbar:
   left:
     - text: "Colors"
       href: colors.html
+      menu:
+        - text: "Color Theory"
+          href: color_theory.html
+        - text: "Tools & Links"
+          href: color_links.html
+        - text: "Top 4 Color Tips"
+          href: top-tips-for-better-colors.html
   right:
     - icon: fa-twitter fa-lg
       href: http://www.twitter.com/emacholdt

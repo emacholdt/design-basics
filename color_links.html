@@ -10,10 +10,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="by Enrico Macholdt" />
 
 
-<title>Basic Design Tips and Links for Non-Designers</title>
+<title>Color Tools and Links</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -21,6 +20,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -259,6 +261,63 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -266,6 +325,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -323,28 +392,54 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Basic Design Tips and Links for Non-Designers</h1>
-<h4 class="author">by <a href="https://github.com/emacholdt">Enrico Macholdt</a></h4>
+<h1 class="title toc-ignore">Color Tools and Links</h1>
 
 </div>
 
 
-<hr />
-<div id="hey-curios-fellow" class="section level2">
-<h2>Hey curios fellow,</h2>
-<p>design can be hard, especially for non-designers. I saw many scientists struggle, we all struggle.</p>
-<p>This page is my personal collection of basic design tips, tricks, links, tools and more I compiled to make my life a little bit easier. Get inspired and maybe improve the design of your projects, scientific figures, presentations, posters, or whatever you are doing.</p>
-<p><br><br></p>
-<p><strong>Disclaimer</strong></p>
-<p>This is by far no guidline or tutorial. I am no designer or design student and just want to help everyone kickstarted with tips and tricks.</p>
-<div class="figure">
-<img src="https://i.kym-cdn.com/photos/images/newsfeed/001/018/894/a2c.png" alt="image source: https://knowyourmeme.com/" />
-<p class="caption">image source: <a href="https://knowyourmeme.com/" class="uri">https://knowyourmeme.com/</a></p>
+<hr>
+<div id="color-schemes-and-generators" class="section level2">
+<h2>Color Schemes and Generators</h2>
+<div id="colorlisa" class="section level3">
+<h3><a href="http://colorlisa.com/">colorlisa</a></h3>
+<p>color schemes from famous paintings</p>
+</div>
+<div id="flatuicolors" class="section level3">
+<h3><a href="https://flatuicolors.com/">flatuicolors</a></h3>
+<p>nice colors for flat UI design</p>
+</div>
+<div id="materialpalette" class="section level3">
+<h3><a href="https://www.materialpalette.com">materialpalette</a></h3>
+<p>material design colors</p>
+</div>
+<div id="colorhunt" class="section level3">
+<h3><a href="https://colorhunt.co/">colorhunt</a></h3>
+<p>curated color combinations</p>
+</div>
+</div>
+<div id="color-picker-tools" class="section level2">
+<h2>Color Picker Tools</h2>
+<div id="colorzilla" class="section level3">
+<h3><a href="https://www.colorzilla.com/">ColorZilla</a></h3>
+<p>chrome extension that picks colors from any website</p>
+</div>
+</div>
+<div id="further-reading" class="section level2">
+<h2>Further Reading</h2>
+<div id="the-non-designers-design-book" class="section level3">
+<h3><a href="https://amzn.to/35Lxqte">The Non-Designer’s Design Book</a></h3>
+<p>by Robin Williams</p>
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=DE&amp;source=ss&amp;ref=as_ss_li_til&amp;ad_type=product_link&amp;tracking_id=&amp;language=de_DE&amp;marketplace=amazon&amp;region=DE&amp;placement=0133966151&amp;asins=0133966151&amp;linkId=5a019a28478964f58b92857a72fb96bc&amp;show_border=false&amp;link_opens_in_new_window=true">
+</iframe>
+<p><br><br> <strong>Disclaimer</strong></p>
+<p>Amazon and some other links are refshare links.</p>
 </div>
 </div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -377,6 +472,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

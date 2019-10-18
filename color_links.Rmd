@@ -1,0 +1,47 @@
+---
+title: "Color Tools and Links"
+output:
+  html_document:
+    toc: true  
+    toc_float: true
+    includes:
+      in_header: "favicon.html"
+---
+
+<hr>
+
+## Color Schemes and Generators
+
+### [colorlisa](http://colorlisa.com/)  
+
+color schemes from famous paintings 
+
+### [flatuicolors](https://flatuicolors.com/)  
+
+nice colors for flat UI design 
+
+### [materialpalette](https://www.materialpalette.com)  
+
+material design colors 
+
+### [colorhunt](https://colorhunt.co/)  
+
+curated color combinations 
+
+## Color Picker Tools
+
+### [ColorZilla](https://www.colorzilla.com/)
+
+chrome extension that picks colors from any website
+
+## Further Reading
+
+### [The Non-Designer's Design Book](https://amzn.to/35Lxqte) 
+by Robin Williams 
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=DE&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=&language=de_DE&marketplace=amazon&region=DE&placement=0133966151&asins=0133966151&linkId=5a019a28478964f58b92857a72fb96bc&show_border=false&link_opens_in_new_window=true"></iframe>
+
+<br><br>
+**Disclaimer**
+
+Amazon and some other links are refshare links.
