@@ -12,36 +12,39 @@ output:
 
 ## Color Schemes and Generators
 
-### [colorlisa](http://colorlisa.com/)  
+### <a href="http://colorlisa.com/" target="_blank">Colorlisa</a>  
 
 color schemes from famous paintings 
 
-### [flatuicolors](https://flatuicolors.com/)  
+### <a href="https://flatuicolors.com/" target="_blank">Flatuicolors</a> 
 
 nice colors for flat UI design 
 
-### [materialpalette](https://www.materialpalette.com)  
-
+### <a href="https://www.materialpalette.com" target="_blank">Materialpalette</a>
 material design colors 
 
-### [colorhunt](https://colorhunt.co/)  
+### <a href="https://colorhunt.co/" target="_blank">Colorhunt </a>
 
 curated color combinations 
 
+---
+
 ## Color Picker Tools
 
-### [ColorZilla](https://www.colorzilla.com/)
+### <a href="https://www.colorzilla.com/" target="_blank">ColorZilla</a>
 
-chrome extension that picks colors from any website
+chrome extension that picks colors from any website <a href="https://www.colorzilla.com/" target="_blank">https://www.colorzilla.com/</a>
+
+---
 
 ## Further Reading
 
-### [The Non-Designer's Design Book](https://amzn.to/35Lxqte) 
+### <a href="https://amzn.to/35Lxqte" target="_blank">The Non-Designer's Design Book</a>
 by Robin Williams 
 
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=DE&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=&language=de_DE&marketplace=amazon&region=DE&placement=0133966151&asins=0133966151&linkId=5a019a28478964f58b92857a72fb96bc&show_border=false&link_opens_in_new_window=true"></iframe>
+
 
 <br><br>
-**Disclaimer**
+---
+<font size="2"><b> "disclaimer" </b> Amazon and some other links are refshare links.</font>
 
-Amazon and some other links are refshare links.
