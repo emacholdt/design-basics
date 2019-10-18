@@ -10,3 +10,7 @@ Color is one of the most important tools to transfer information, evokes emotion
 There are a few things that one can do to use colors to your advantage.
 
 Stay tuned for a short intro into color theory.
+
+<div align="right">
+<a href="color_links.html" class="btn btn-primary" align="right">Useful Color Tools and Links</a>
+</div>
