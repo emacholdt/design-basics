@@ -1,6 +1,5 @@
 ---
 title: "Basic Design Tips and Links for Non-Designers"
-author:  "by [Enrico Macholdt](https://github.com/emacholdt)"
 output:
   html_document:
     fig_width: 1
