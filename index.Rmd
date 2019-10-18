@@ -4,8 +4,6 @@ author:  "by [Enrico Macholdt](https://github.com/emacholdt)"
 output:
   html_document:
     fig_width: 1
-    includes:
-      in_header: "favicon.html"
 ---
 
 ----

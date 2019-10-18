@@ -4,8 +4,6 @@ output:
   html_document:
     toc: false  
     toc_float: true
-    includes:
-      in_header: "favicon.html"
 ---
 
 Color is one of the most important tools to transfer information, evokes emotion and set style.
