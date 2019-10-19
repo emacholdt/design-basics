@@ -1,6 +1,6 @@
 name: "Basic Design Tips and Links for Non-Designers"
 navbar:
-  title: <i class="fa fa-home" aria-hidden="true"></i>
+  title: Super Basic Design Tips
   left:
     - text: "Colors"
       href: colors.html
@@ -11,6 +11,8 @@ navbar:
           href: color_links.html
         - text: "Top 4 Color Tips"
           href: top-tips-for-better-colors.html
+    - text: "Link Collection"
+      href: graphic_design_link_collection.html
   right:
     - icon: fa-twitter fa-lg
       href: http://www.twitter.com/emacholdt

@@ -1,24 +1,29 @@
 ---
-title: "Basic Design Tips and Links for Non-Designers"
+title: "Super Basic Design Tips and Links for Non-Designers"
 output:
   html_document:
     fig_width: 1
 ---
+ <br />
 
-----
+<div class="jumbotron">
+  <h1>Hey curios fellow,</h1>
+  <p>Design can be hard, especially for non-designers. I saw many scientists struggle, inlcuding myself. <b> We all struggle</b>.</p>
+  <p>This page is my personal collection of basic design tips, tricks, links, tools, and more that I compiled to make my life a little bit easier. Get inspired and maybe improve the design of your scientific projects, figures, presentations, posters, or whatever you are doing. </p>
+  <p><a href="color_links.html" class="btn btn-primary btn-lg">Let's Start with Color</a></p>
+</div>
 
-## Hey curios fellow,
 
-design can be hard, especially for non-designers. I saw many scientists struggle, we all struggle.
-
-This page is my personal collection of basic design tips, tricks, links, tools and more I compiled to make my life a little bit easier. Get inspired and maybe improve the design of your projects, scientific figures, presentations, posters, or whatever you are doing.
 
 <br><br>
   
 **Disclaimer**
 
 This is by far no guidline or tutorial. I am no designer or design student and just want to help everyone kickstarted with tips and tricks.
-
-![image source: https://knowyourmeme.com/](https://i.kym-cdn.com/photos/images/newsfeed/001/018/894/a2c.png)
-
+ 
+ <br>
+ 
+<center>
+![image: https://knowyourmeme.com/](https://i.kym-cdn.com/photos/images/newsfeed/001/018/894/a2c.png)
+</center>
 

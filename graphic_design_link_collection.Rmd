@@ -1,0 +1,52 @@
+---
+title: "Design Tools and Useful Links Collection"
+output:
+  html_document:
+    toc: true  
+    toc_float: true
+    toc_depth: 4
+---
+
+
+
+
+```{r pressure,fig.width=6,echo=FALSE,message=FALSE,results="asis"}
+
+
+all_links=read.table('links/link-collection.csv', sep = ";", header = T, stringsAsFactors = F)
+
+for(category in unique(all_links$cat)){
+  links=all_links[all_links$cat==category,]
+  cat("  \n# ", category ) 
+  cat("  \n  \n")
+  
+  for(s in unique(links$subcat)){
+    cat("  \n## ", s ) 
+    cat("  \n  \n")
+    l= links[links$subcat==s,]
+    for(i in l$name) {
+      cat("  \n### <a style=\"color: #000000\" href=\"", l[which(l$name==i), 'url'] ,"\" target=\"_blank\">", i ,"</a>") 
+      cat("  \n", l[which(l$name==i), 'desc'], " | ", l[which(l$name==i), 'url'])
+      cat("  \n \n")
+    }
+  cat("  \n <hr> \n")
+  }
+}
+
+```
+
+
+
+
+
+
+
+
+
+<div align="right">
+<a href="mailto:info@enricomacholdt.de?subject=[DesignBasics]%20Link%20Suggestion" class="btn btn-primary" align="right">Suggest A Link</a>
+</div>
+
+
+<font size="2"><b> Disclaimer: </b> Amazon and some other links are referral links.</font>
+

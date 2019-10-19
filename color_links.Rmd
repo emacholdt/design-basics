@@ -4,47 +4,44 @@ output:
   html_document:
     toc: true  
     toc_float: true
+    toc_depth: 2
 ---
 
-<hr>
+----
 
-## Color Schemes and Generators
+```{r pressure,fig.width=6,echo=FALSE,message=FALSE,results="asis"}
+category="Color"
 
-### <a href="http://colorlisa.com/" target="_blank">Colorlisa</a>  
+links=read.table('links/link-collection.csv', sep = ";", header = T, stringsAsFactors = F
+                 )
+links=links[links$cat==category,]
+for(s in unique(links$subcat)){
+  cat("  \n## ", s ) 
+  cat("  \n \n")
+  l= links[links$subcat==s,]
+  for(i in l$name) {
+    cat("  \n### <a style=\"color: #000000\" href=\"", l[which(l$name==i), 'url'] ,"\" target=\"_blank\">", i ,"</a>") 
+    cat("  \n", l[which(l$name==i), 'desc'], " | ", l[which(l$name==i), 'url'])
+    cat("  \n  \n")
+  }
+  cat("  \n <hr> \n")
+}
 
-color schemes from famous paintings 
+```
 
-### <a href="https://flatuicolors.com/" target="_blank">Flatuicolors</a> 
 
-nice colors for flat UI design 
 
-### <a href="https://www.materialpalette.com" target="_blank">Materialpalette</a>
-material design colors 
 
-### <a href="https://colorhunt.co/" target="_blank">Colorhunt </a>
 
-curated color combinations 
 
----
 
-## Color Picker Tools
-
-### <a href="https://www.colorzilla.com/" target="_blank">ColorZilla</a>
-
-chrome extension that picks colors from any website <a href="https://www.colorzilla.com/" target="_blank">https://www.colorzilla.com/</a>
-
----
-
-## Further Reading
-
-### <a href="https://amzn.to/35Lxqte" target="_blank">The Non-Designer's Design Book</a>
-by Robin Williams 
 
 
 <div align="right">
-<a href="top-tips-for-better-colors.html" class="btn btn-primary" align="right">Top Tipts for Better Color Use</a>
+<a href="mailto:info@enricomacholdt.de?subject=[DesignBasics]%20Link%20Suggestion" class="btn btn-primary" align="right">Suggest A Link</a>
 </div>
 
----
+
 <font size="2"><b> Disclaimer: </b> Amazon and some other links are referral links.</font>
+
 
