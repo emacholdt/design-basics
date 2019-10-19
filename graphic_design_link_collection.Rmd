@@ -4,7 +4,7 @@ output:
   html_document:
     toc: true  
     toc_float: true
-    toc_depth: 4
+    toc_depth: 2
 ---
 
 
@@ -25,7 +25,7 @@ for(category in unique(all_links$cat)){
     cat("  \n  \n")
     l= links[links$subcat==s,]
     for(i in l$name) {
-      cat("  \n### <a style=\"color: #000000\" href=\"", l[which(l$name==i), 'url'] ,"\" target=\"_blank\">", i ,"</a>") 
+      cat("  \n### <a href=\"", l[which(l$name==i), 'url'] ,"\" target=\"_blank\">", i ,"</a>") 
       cat("  \n", l[which(l$name==i), 'desc'], " | ", l[which(l$name==i), 'url'])
       cat("  \n \n")
     }

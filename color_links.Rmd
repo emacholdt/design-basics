@@ -20,7 +20,7 @@ for(s in unique(links$subcat)){
   cat("  \n \n")
   l= links[links$subcat==s,]
   for(i in l$name) {
-    cat("  \n### <a style=\"color: #000000\" href=\"", l[which(l$name==i), 'url'] ,"\" target=\"_blank\">", i ,"</a>") 
+    cat("  \n### <a href=\"", l[which(l$name==i), 'url'] ,"\" target=\"_blank\">", i ,"</a>") 
     cat("  \n", l[which(l$name==i), 'desc'], " | ", l[which(l$name==i), 'url'])
     cat("  \n  \n")
   }
