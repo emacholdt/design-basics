@@ -1,5 +1,5 @@
 ---
-title: "Super Basic Design Tips and Links for Non-Designers"
+title: "Super Basic Design Tips for Scientists"
 output:
   html_document:
     fig_width: 1
@@ -19,7 +19,7 @@ output:
   
 **Disclaimer**
 
-This is by far no guidline or tutorial. I am no designer or design student and just want to help everyone kickstarted with tips and tricks.
+This page is not complete yet and is by far no guidline or tutorial. I am not a designer nor design student, but I want to help everyone get kickstarted with some very basic tips and tricks.
  
  <br>
  

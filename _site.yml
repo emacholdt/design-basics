@@ -1,6 +1,6 @@
-name: "Basic Design Tips and Links for Non-Designers"
+name: "Design Tips for Scientists"
 navbar:
-  title: Super Basic Design Tips
+  title: Design Tips for Scientists
   left:
     - text: "Colors"
       href: colors.html
