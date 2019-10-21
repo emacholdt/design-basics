@@ -1,7 +1,7 @@
 name: "Design Tips for Scientists"
 url: https://enricomacholdt.de/design-basics/
 navbar:
-  title: Design Tips for Scientists
+  title: <div><img src="img/android-chrome-192x192_w.png" width=22/>  Design Tips for Scientists </div>
   left:
     - text: "Colors"
       href: colors.html
