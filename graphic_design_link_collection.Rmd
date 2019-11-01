@@ -48,5 +48,5 @@ for(category in unique(all_links$cat)){
 </div>
 
 
-<font size="2"><b> Disclaimer: </b> Amazon and some other links are referral links.</font>
+<font size="2"><b> Disclaimer: </b> Amazon and some other links are referral links. Whilst I endeavour to ensure that the information on this website are correct, I do not warrant any completeness or accuracy.</font>
 
