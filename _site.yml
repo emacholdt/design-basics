@@ -3,15 +3,6 @@ url: https://enricomacholdt.de/design-basics/
 navbar:
   title: <div><img src="img/android-chrome-192x192_w.png" width=22/>  Design Tips for Scientists </div>
   left:
-    - text: "Colors"
-      href: colors.html
-      menu:
-        - text: "Color Theory"
-          href: color_theory.html
-        - text: "Tools & Links"
-          href: color_links.html
-        - text: "Top 4 Color Tips"
-          href: top-tips-for-better-colors.html
     - text: "Link Collection"
       href: graphic_design_link_collection.html
   right:
@@ -27,3 +18,12 @@ output:
     include:
       after_body: _footer.html
       in_header: favicon.html
+#    - text: "Colors"
+#      href: colors.html
+#      menu:
+#        - text: "Color Theory"
+#          href: color_theory.html
+#        - text: "Tools & Links"
+#          href: color_links.html
+#        - text: "Top 4 Color Tips"
+#          href: top-tips-for-better-colors.html --->#
